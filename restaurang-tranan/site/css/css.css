@@ -10,9 +10,22 @@ div {
     text-align: center;
 }
 
-img {
+#bild {
     width: 150px;
     height: 150px;
+    margin-left: 15%;
+    float: left;
+}
+
+#trana {
+    width: 150px;
+    height: 150px;
+}
+
+#hummer {
+    width: 450px;
+    height: 300px;
+    float: left;
 }
 
 #search {
