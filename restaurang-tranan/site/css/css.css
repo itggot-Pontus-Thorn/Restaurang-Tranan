@@ -17,9 +17,10 @@ div {
     float: left;
 }
 
-#bild{
+#bild, #lax, #oxfile{
     margin-left: 15%;
     float: left;
+    margin-top: 2%;
 }
 
 #search {
