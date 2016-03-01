@@ -11,21 +11,14 @@ div {
 }
 
 
-#bild {
-    width: 150px;
-    height: 150px;
-    margin-left: 15%;
-    float: left;
-}
-
-#trana {
-    width: 150px;
-    height: 150px;
-}
-
 #hummer {
     width: 450px;
     height: 300px;
+    float: left;
+}
+
+#bild{
+    margin-left: 15%;
     float: left;
 }
 
