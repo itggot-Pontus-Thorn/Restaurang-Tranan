@@ -18,25 +18,22 @@ div {
 }
 
 #bild, #lax, #oxfile{
-    margin-left: 15%;
+    margin-left: 12%;
     float: left;
     margin-top: 2%;
 }
 
 #search {
     width: 400px;
-    margin-top: 0;
     height: 22px;
-    margin-bottom: 8px;
     color: #101011;
 }
 
-#för, #efter, #nummer {
-    margin-bottom: 8px;
-}
-
-input {
+input, h3 {
     font-family: "Lucida Bright Demibold";
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-top: auto;
 }
 
 #hej {
@@ -88,3 +85,5 @@ li {
 .boka {
     background-color: #404040 !important;
 }
+
+
