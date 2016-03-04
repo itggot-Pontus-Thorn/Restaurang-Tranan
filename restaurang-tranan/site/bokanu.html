@@ -2,39 +2,44 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <link rel="stylesheet" href="css/css.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+
     <meta charset="UTF-8">
     <title>Restaurang Tranan</title>
 </head>
-<body>
-<div>
-    <img id="trana" src="img/trana.png">
-</div>
-<ul class="list">
-    <li>
-        <a href="index.html">Hem</a>
-    </li>
-    <li class="boka">
-        <a href="bokanu.html">Boka Bord</a>
-    </li>
-    <li>
-        <a href="meny.html">Meny</a>
-    </li>
-    <li>
-        <a href="http://www.youtube.com/watch?v=y6120QOlsfU">Om Oss</a>
-    </li>
-</ul>
 <p>
-<h3>Förnamn:</h3>
-    <input placeholder="Ex. Julian" autofocus><br>
-<h3>Efternamn:</h3>
-    <input placeholder="Ex. Zora" autofocus><br>
-<h3>Telefon:</h3>
-    <input placeholder="+46" autofocus><br>
-<h3>Antal:</h3>
-    <input id="search" placeholder="" autofocus><br>
-<form action="http://i3.kym-cdn.com/photos/images/facebook/000/011/296/success_baby.jpg">
-    <input id ="antal" type="submit" value="Boka nu">
-</form>
+    <nav>
+        <div id="trana">
+            <img src="img/trana.png">
+        </div>
+        <div id="navbar">
+            <ul class="list">
+                <li>
+                    <a href="index.html">Hem</a>
+                </li>
+                <li id="boka">
+                    <a href="bokanu.html">Boka Bord</a>
+                </li>
+                <li>
+                    <a href="meny.html">Meny</a>
+                </li>
+                <li>
+                    <a href="om_oss.html">Om Oss</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <p>
+        <h3>Förnamn:</h3>
+            <input placeholder="Ex. Julian" autofocus><br>
+        <h3>Efternamn:</h3>
+            <input placeholder="Ex. Zora" autofocus><br>
+        <h3>Telefon:</h3>
+            <input placeholder="+46" autofocus><br>
+        <h3>Antal:</h3>
+            <input id="search" placeholder="" autofocus><br>
+        <button id ="button" onclick="myFunction()">Boka Nu</button>
+        <script src="js/boka.js"></script>
 </p>
 </body>
 </html>

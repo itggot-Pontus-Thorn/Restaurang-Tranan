@@ -1,19 +1,74 @@
 body {
-    background-color: #101011;
+    background-color: #ecf0f1;
     overflow: hidden;
-    font-family: "Lucida Bright Demibold";
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     margin: 0;
     padding: 0;
+    color: #2c3e50;
 }
 
-div {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    font-weight: 100;
+}
+
+div#personal {
     text-align: center;
 }
 
-#lax, #oxfile, #macka, #hummer {
-    margin-left: 12%;
+div#trana {
     float: left;
-    margin-top: 2%;
+    width: 20%;
+    background-color: #2980b9;
+    height: 100px;
+    text-align: center;
+}
+
+div#navbar {
+    background-color: #2980b9;
+    width: 80%;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+}
+
+div#info, div#pers, div#adress, div#kontakt {
+    float: left;
+    width: 50%;
+}
+
+p.text {
+    width: calc(100% - 100px);
+    float: left;
+    padding: 8px;
+}
+
+nav {
+    width: 100%;
+    float: left;
+}
+
+p.hummer {
+    width: calc(100% - 256px);
+    float: left;
+    padding: 8px;
+}
+
+div#dishes {
+    width: 100%;
+    float: left;
+    padding: 8px;
+}
+
+div.dish {
+    float: left;
+    width: 50%;
+}
+
+div.dish > * {
+    float: left;
 }
 
 #search {
@@ -22,25 +77,24 @@ div {
     color: #101011;
 }
 
-input, h3 {
-    font-family: "Lucida Bright Demibold";
+input, h3, #button {
+    font-weight: 100;
     margin-bottom: 1%;
     margin-left: 2%;
     margin-top: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
-#hej {
-    color: black;
-}
 
 a {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 ul.list li {
-    background-color: grey;
-    color: white;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,11 +103,7 @@ ul.list li {
 }
 
 ul.list li:hover {
-    background-color: #404040;
-}
-
-label,h3 {
-    color: white;
+    background-color: #2c3e50;
 }
 
 #search {
@@ -67,12 +117,13 @@ ul {
     margin: 0;
 }
 
+
 li {
     width: 25%;
 }
 
-.hem, .boka, .meny {
-    background-color: #404040 !important;
+#hem, #boka, #meny, #om {
+    background-color: #2c3e50 !important;
 }
 
 
